@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="161573" started-at="2022-05-05T09:22:54 IST" finished-at="2022-05-05T09:25:36 IST">
+    <groups>
+      <group name="PrevalidationCHECK">
+        <method signature="TDM_Prevalidation.testMethod_ForeignToTelusPortin(org.testng.ITestContext)[pri:0, instance:com.telus.wnp.tests.TDM_Prevalidation@46238e3f]" name="testMethod_ForeignToTelusPortin" class="com.telus.wnp.tests.TDM_Prevalidation"/>
+      </group> <!-- PrevalidationCHECK -->
+    </groups>
+    <test name="Default test" duration-ms="161573" started-at="2022-05-05T09:22:54 IST" finished-at="2022-05-05T09:25:36 IST">
+      <class name="com.telus.wnp.tests.TDM_Prevalidation">
+        <test-method status="PASS" signature="BeforeMethod(org.testng.ITestContext)[pri:0, instance:com.telus.wnp.tests.TDM_Prevalidation@46238e3f]" name="BeforeMethod" is-config="true" duration-ms="195" started-at="2022-05-05T09:22:54 IST" finished-at="2022-05-05T09:22:54 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ca18a14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BeforeMethod -->
+        <test-method status="PASS" signature="testMethod_ForeignToTelusPortin(org.testng.ITestContext)[pri:0, instance:com.telus.wnp.tests.TDM_Prevalidation@46238e3f]" name="testMethod_ForeignToTelusPortin" duration-ms="158072" started-at="2022-05-05T09:22:54 IST" finished-at="2022-05-05T09:25:33 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6ca18a14]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod_ForeignToTelusPortin -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:com.telus.wnp.tests.TDM_Prevalidation@46238e3f]" name="afterTest" is-config="true" duration-ms="3231" started-at="2022-05-05T09:25:33 IST" finished-at="2022-05-05T09:25:36 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- com.telus.wnp.tests.TDM_Prevalidation -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

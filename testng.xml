@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="WNPRegressionSuite" parallel="methods" thread-count="1">
+	<listeners>
+		<listener
+			class-name="com.test.reporting.AnnotationTransformer" />
+	 <listener
+			class-name="com.test.listeners.ReportPortalListener" />  
+	</listeners> 
+	<test name="WNPRegressionTests">
+		<groups>
+			<run>
+				<include name= "FixReviewComments" />
+				<exclude name="OSPCancelRequestKoodoFromTelusDryRun" />
+				<exclude
+					name="SendCancellationtoExternalServiceProviderDryRun" />
+			</run>
+		</groups>
+		<packages>
+			<package name="com.telus.wnp.tests"></package>
+		</packages>
+	</test>
+</suite> <!-- Suite -->
