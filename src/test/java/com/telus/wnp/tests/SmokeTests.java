@@ -185,7 +185,7 @@ public class SmokeTests extends BaseTest {
 		boolean codaStatusDisplayed = false;
 		if (!codaStatus.isEmpty())
 			codaStatusDisplayed = true;
-		Validate.assertEquals(codaStatusDisplayed, true, "CODA - Dashboard Page not displayed", false);
+		Validate.assertEquals(codaStatusDisplayed, false, "CODA - Dashboard Page not displayed", false);
 
 		WebDriverSteps.closeTheBrowser();
 		Reporting.printAndClearLogGroupStatements();
